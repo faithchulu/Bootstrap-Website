@@ -1,0 +1,101 @@
+.brandLogo {
+    height: 8vh;
+    width: 12vh;
+}
+
+.searchIcon {
+    height: 3vh;
+    width: 3vh;
+}
+
+.heroImage { 
+    height: 100%;
+    width: 100%;
+}
+
+.heroIconsContainer {
+    padding: 5vh;
+    justify-content: center;
+}
+
+.icons {
+    height: 4vh;
+    width: 4vh;
+    
+}
+
+.btn-circularpink {
+    color: white;
+    background-color: #bb053a;
+    width: 100px;
+    height: 5vh;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15   px;
+    text-align: center;
+}
+
+.catalogSmallCakes {
+    height: 35%;
+    width: 80%;
+}
+
+.largerCake {
+    height: 78%;
+    width: 85%;
+}
+
+.advantageImages {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 15vh;
+    margin-top: 10vh;
+}
+
+.chefImages {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 15vh;
+    margin-top: 10vh;
+}
+
+.input {
+    padding: 1rem;
+    height: 4vh;
+    width: 15rem;
+    border-radius: 3vh;
+    background-color: #f6f6f6;
+    border: none;
+}
+
+.footerimage {
+    height: 100% ;
+    width: 100%;
+}
+.footer {
+    background-color: #f6f6f6;
+}
+
+.footerComponent {
+    background-color: #f6f6f6;
+}
+
+.alternateFooter {
+    display: none;
+}
+
+@media  (max-width: 900px) {
+.heroImage {
+        display: none;
+    }
+.footer {
+    display: none;
+}
+
+.alternateFooter {
+    display: flex;
+    flex-direction: column;
+}
+
+}
